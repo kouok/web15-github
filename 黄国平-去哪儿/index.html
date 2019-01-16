@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <!--viewport一定要加 user-scalable 值可以是yes|no或1|0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=0" />
+    <!-- 禁止将数字转为号码 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 控制顶栏状态栏显示样式，可以为透明 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- 添加一个网站图标，这样当你将网站添加到桌面图标时，会显示出来 -->
+    <link rel="apple-touch-icon-precomposed" href="mobile_logo.png?v1" />
+    <title>去哪儿主页</title>
+    <link rel="stylesheet" href="css/reset.css"/> 
+    <link rel="stylesheet" href="css/index.css"/> 
+    <link rel="stylesheet" href="font/iconfont.css">
+    <script>
+		(function(){
+			var ohtml = document.getElementsByTagName('html')[0];
+			var w = ohtml.getBoundingClientRect().width;
+			ohtml.style.fontSize=w/3.75+'px';
+		})();
+	</script>
+</head>
+<body>
+  <!-- 网页内容 -->
+ 	<header class="head"></header>
+ 	<section class="body">
+		<div class="hotel bgRed">
+			<div>
+				<span>酒店</span>
+				<span class="s1">
+					<img src="img/hotel.png" alt="">
+				</span>
+			</div>
+			<div>
+				<a href="javascript:" class="bodyBottomBorder">特惠酒店</a>
+				<a href="javascript:">客栈</a>
+			</div>
+			<div>
+				<a href="javascript:" class="bodyBottomBorder">海外酒店</a>
+				<a href="javascript:">民宿</a>
+			</div>
+		</div>
+		<div class="ticket">
+			<div>
+				<span>机票</span>
+				<span class="s1">
+					<img src="img/flight.png" alt="">
+				</span>
+			</div>
+			<div>
+				<a href="javascript:" class="bodyBottomBorder">特价机票</a>
+				<a href="javascript:">火车票</a>
+			</div>
+			<div>
+				<a href="javascript:" class="bodyBottomBorder">汽车票▪船票</a>
+				<a href="javascript:">专车▪自驾</a href="javascript:">
+			</div>
+		</div>
+		<div class="vacation">
+			<div>
+				<span>度假</span>
+				<span class="s1">
+					<img src="img/holiday.png" alt="">
+				</span>
+			</div>
+			<div>
+				<a href="javascript:" class="bodyBottomBorder">特惠酒店</a>
+				<a href="javascript:">客栈</a>
+			</div>
+			<div>
+				<a href="javascript:" class="bodyBottomBorder">海外酒店</a>
+				<a href="javascript:">民宿</a href="javascript:">
+			</div>
+		</div>
+		<div class="project">
+			<a href="javascript:">金融▪理财</a>
+			<a href="javascript:">保险▪车险</a>
+			<a href="javascript:">全球购</a>
+		</div>
+ 	</section>
+ 	<footer class="foot">
+		<nav class="footNav">
+			<a href="javascript:">
+                <p>签证▪WiFi</p>
+			</a>
+			<a href="javascript:">
+                <p>出境游</p>
+			</a>
+			<a href="details.html">
+                <p>一日游</p>
+			</a>
+			<a href="javascript:">
+                <p>美食林</p>
+			</a>
+			<a href="javascript:">
+                <p>汽车票</p>
+			</a>
+			<a href="javascript:">
+                <p>邮轮游</p>
+			</a>
+			<a href="javascript:">
+                <p>超级巴士</p>
+			</a>
+			<a href="javascript:">
+                <p>攻略</p>
+			</a>
+		</nav>
+		<section class="user">
+			<a href="javascript:">
+				<div class="iconfont icon-qunaer1 imgBox"></div>
+				下载APP
+			</a>
+			<a href="javascript:">
+				<div class="iconfont icon-dingdan imgBox"></div>
+				我的订单
+			</a>
+			<a href="login.html">
+				<div class="iconfont icon-yonghu imgBox"></div>
+				我的
+			</a>
+		</section>
+		<section class="footBottom">
+			Qunar 京ICP备05021087
+			<a>关于我们</a>
+		</section>
+ 	</footer>
+</body>
+</html>

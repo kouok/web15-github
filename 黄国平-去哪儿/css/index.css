@@ -1,0 +1,168 @@
+body{
+	font-size: 0.16rem;
+}
+.head{
+	height:0.97rem;
+	background: url(../img/6e407f088bfb902.png) no-repeat;
+	background-size: contain;
+}
+.body{
+	margin:0 auto;
+	padding-bottom: 0.06rem;
+	width: 3.67rem;
+	color: white;
+}
+.body a{
+	color: white;
+}
+.hotel,.ticket,.vacation{
+	height:0.97rem;
+	text-align: center;
+	display: flex;
+}
+.hotel>div,.ticket>div,.vacation>div{
+	width: 33.33%;
+	height:100%;
+	font-size: 0.18rem;
+}
+.bodyBottomBorder{
+	border-bottom: 1px solid rgba(255,255,255,0.3);
+}
+.hotel>div:nth-child(1),.hotel>div:nth-child(2),
+.ticket>div:nth-child(1),.ticket>div:nth-child(2),
+.vacation>div:nth-child(1),.vacation>div:nth-child(2){
+	border-right: 1px solid rgba(255,255,255,0.3);
+}
+.hotel>div>span,.ticket>div>span,.vacation>div>span{
+	display: block;
+	height:0.48rem;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.hotel>div>a,.ticket>div>a,.vacation>div>a{
+	display: block;
+	height:0.48rem;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.hotel>div>.s1>img,
+.ticket>div>.s1>img,
+.vacation>div>.s1>img{
+	height: 100%;
+}
+.ticket{
+	background: #00A7F7;
+	margin-top: 0.05rem;
+}
+.vacation{
+	background: #7CB832;
+	margin-top: 0.05rem;
+}
+.project{
+	margin-top: 0.05rem;
+	height:0.5rem;
+	text-align: center;
+	display: flex;
+	background: #FF9900;
+}
+.project>a{
+	display: block;
+	width: 33.33%;
+	height:100%;
+	line-height: 0.5rem;
+	font-size: 0.18rem;
+}
+.foot{
+	padding-top: 0.1rem;
+	background: #EEEEEE;
+}
+.footNav{
+	padding:0 0.31rem 0 0.31rem;
+	height:1.5rem;
+	background: white;
+	display: flex;
+	flex-wrap: wrap;
+}
+.footNav>a{
+	position: relative;
+	display: block;
+	width: 25%;
+}
+.footNav>a>p{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 0.23rem;
+	line-height: 0.23rem;
+	text-align: center;
+	font-size: 0.14rem;
+	color: #666;
+}
+.footNav>a{
+	background-size: 3.75rem !important;
+}
+.footNav>a:nth-child(1){
+	background: url(../img/entrances.png) no-repeat -0.15rem -0.02rem;
+}
+.footNav>a:nth-child(2){
+	background: url(../img/entrances.png) no-repeat -0.98rem -0.02rem;
+}
+.footNav>a:nth-child(3){
+	background: url(../img/entrances.png) no-repeat -1.87rem -0.02rem;
+}
+.footNav>a:nth-child(4){
+	background: url(../img/entrances.png) no-repeat -2.73rem -0.02rem;
+}
+.footNav>a:nth-child(5){
+	background: url(../img/entrances.png) no-repeat -0.15rem -0.78rem;
+}
+.footNav>a:nth-child(6){
+	background: url(../img/entrances.png) no-repeat -0.98rem -0.78rem;
+}
+.footNav>a:nth-child(7){
+	background: url(../img/entrances.png) no-repeat -1.87rem -0.78rem;
+}
+.footNav>a:nth-child(8){
+	background: url(../img/entrances.png) no-repeat -2.73rem -0.78rem;
+}
+.foot>.user{
+	padding:0 0.53rem;
+	margin-top: 0.1rem;
+	height:0.83rem;
+	background:white;
+	display: flex;
+	justify-content: space-between;
+}
+.foot>.user>a{
+	padding-top:0.12rem;
+	display: block;
+	width: 0.54rem;
+	text-align: center;
+	color: #666;
+	font-size: 0.12rem;
+}
+.foot>.user .imgBox{
+	margin:0 auto;
+	margin-bottom: 0.07rem;
+	border:1px solid #ccc;
+	width: 0.42rem;
+	height:0.42rem;
+	border-radius: 50%;
+	line-height: 0.42rem;
+	font-size: 0.25rem;
+
+}
+.footBottom{
+	padding-left: 0.1rem;
+	height:0.54rem;
+	line-height: 0.54rem;
+	font-size: 0.12rem;
+	color: #999;
+}
+.footBottom a{
+	margin-left: 0.33rem;
+	font-size: 0.14rem;
+	color: #666;
+
+}
+
