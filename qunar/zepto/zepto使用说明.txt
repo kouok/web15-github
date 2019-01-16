@@ -1,0 +1,14 @@
+zepto与jquery的联系、区别：
+1、zepto可以认为是移动端的jquery，虽然不是jquery出品。意味着只要会用jquery，就可以直接上手zepto。
+2、zepto对PC浏览器支持不理想,尤其是在IE上直接过滤不兼容, 所以这个轻量级的js用它来开发手机端网页都是是不错的选择
+3、Zepto无法获取隐藏元素宽高，jQuery 可以
+4、Zepto 的each 方法只能遍历 数组，不能遍历JSON对象
+5、Zepto在操作表单属性时请使用prop方法，在读取其他属性值的情况下优先使用attr（jquery也建议如此）
+6、Zepto不支持的如下选择器，见图片
+    
+
+官网文档：
+http://zeptojs.com/
+
+中文文档：
+http://www.css88.com/doc/zeptojs_api/
