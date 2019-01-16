@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=0" />
+	 	<!-- 引用css文件 -->
+	<link rel="stylesheet" type="text/css" href="index.css/user.css">
+	<link rel="stylesheet" type="text/css" href="fontuser/iconfont.css">
+</head>
+<body>
+	<script>
+		var html=document.getElementsByTagName("html")[0];
+		var whtml=html.getBoundingClientRect().width;
+		html.style.fontSize=whtml/7.5+"px";
+
+		
+	</script>
+	<header class="header">
+		<div class="head iconfont icon-jiantou"></div>
+		<div class="submit ">登录</div>
+		<div class="reset">注册</div>
+	</header>
+	<div class="title">
+		<div class="titleOne">
+			<div class="note" id="note">
+				短信验证码登录
+			</div>
+			<div class="user color" id="user">
+				账号登录
+			</div>
+		</div>
+	</div>
+	<div class="tantainer">
+		<form>
+		 <div class="content" id="content">
+				 	<div class="iphone">
+			 	  		手机号:<input type="text" name="e" placeholder="请输入手机号" pattern="[1]{1}[0-9]{10}" required>
+			 		</div>
+	 	 			<div class="iphone">
+						 验证码:<input type="text" name="h" placeholder="请输入手机号" required>
+						 <a href="#" class="get">获取验证码</a>
+		 			</div>
+	 	 </div>
+	  	<div class="content1" id="content1">
+		 		<div class="iphone">
+				 	账号:<input type="text" name="g" placeholder="请输入账号" required>
+				</div>
+				<div class="iphone">
+					密码:<input type="text" name="l" placeholder="请输入密码" required>
+				</div>
+   		</div>
+	</div>
+	<button>
+		登录
+	</button>
+	</form>
+	<footer>
+	<div class="foot">
+		<div>电脑版</div>
+		<div>关于我们</div>
+	</div>
+	<p>Qunar 京ICP备05021087</p>
+	</footer>
+	<!-- js的代码 -->
+	<script type="text/javascript">
+		var note=document.getElementById("note");
+		var user=document.getElementById("user");
+		var content=document.getElementById("content");
+		var content1=document.getElementById("content1")
+		note.onclick=function(){
+			content.style.display="block";
+			note.style.background="white";
+			user.style.background="#17a9b8";
+			content1.style.display="none"
+		}
+		user.onclick=function(){
+			content.style.display="none";
+			note.style.background="#17a9b8";
+			user.style.background="white";
+			content1.style.display="block";
+		}
+	</script>
+</body>
+</html>
