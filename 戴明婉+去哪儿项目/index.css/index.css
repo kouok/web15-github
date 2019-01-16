@@ -1,0 +1,227 @@
+a, abbr, address, article, aside, audio, b, blockquote, body, caption, cite, code, dd, del, dfn, dialog, div, dl, dt, em, fieldset, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, hr, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, p, pre, q, samp, section, small, span, strong, sub, sup, tfoot, th, thead, time, tr, ul, var, video {
+  border: 0;
+  margin: 0;
+  outline: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+  font-weight: normal;
+  -webkit-tap-highlight-color: rgba(255,255,255,0);
+  -webkit-font-smoothing: antialiased;
+  list-style: none;
+}
+.header{
+	width:100%;
+}
+.header img{
+	width:100%;
+}
+.sectionTitle{
+	width:100%;
+	height:2.00rem;
+	display: flex;
+	justify-content:center;
+}
+
+.hotel{
+	width:2.43rem;
+	height:2.00rem;
+	background:#ff5555;
+}
+.hotelText{
+	font-size:0.35rem;
+	color:white;
+	text-align:center;
+	width:2.43rem;
+	height:1.04rem;
+	line-height:1.04rem;
+}
+.border{
+	border-bottom:1px solid #eb9f9f;
+}
+.borderLfet{
+	border-left:1px solid #eb9f9f;
+}
+.hotelImg{
+	height:0.96rem;
+	width:2.43rem;
+	line-height:0.96rem;
+	font-size:0.35rem;
+	text-align:center;
+	color:white;
+}
+.hotel img{
+	width:0.92rem;
+	height:0.91rem;
+	/*display:block;
+	margin:0 auto;*/
+}
+.color{
+	background:#00a7f6;
+}
+.colorGreen{
+	background:#7cb832;
+}
+.top{
+	margin-top:0.09rem;
+}
+.aside{
+	width:100%;
+	height:1.06rem;
+	display:flex;
+	justify-content:center;
+}
+.asideTitle{
+	width:2.43rem;
+	height:1.06rem;
+	background:#fe9901;
+	text-align:center;
+	line-height:1.06rem;
+	font-size:0.35rem;
+	color:white;
+}
+/*内容*/
+.content{
+	width:100%;
+	height:3.18rem;
+	font-size:0.23rem;
+	padding: 0 0.3rem;
+}
+.contentFirst{
+  width:100%;
+  height:1.79rem;
+  margin-top:0.22rem;
+  display:flex;
+
+}
+
+.contentFirst .wifi{
+	padding-top:0.35rem;
+}
+
+.wifi{
+	width:25%;
+	height:1.3rem;
+	text-align:center;
+	padding-top:0.35rem;
+}
+.wifiA{
+	width:0.51rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-0.84rem -0.44rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiB{
+	width:0.51rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-2.58rem -0.44rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiC{
+	width:0.51rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-4.38rem -0.44rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiE{
+	width:0.51rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-6.1rem -0.44rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiAa{
+	width:0.51rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-0.84rem -1.9rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiBb{
+	width:0.51rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-2.58rem -1.9rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiCc{
+	width:0.51rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-4.38rem -1.9rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiEe{
+	width:0.53rem;
+	height:0.54rem;
+	background-image:url(../img/index/entrances.png);
+	background-position:-6.1rem -1.9rem;
+	background-size: 7.5rem 2.75rem;
+	margin:0 auto;
+
+}
+.wifiText{
+	/*width:1.17rem;*/
+	height:0.26rem;
+}
+.contentLast{
+  width:100%;
+  height:1.79rem;
+  display:flex;
+
+}
+.foot{
+	width:100%;
+	height:1.73rem;
+	font-size:0.23rem;
+	text-align:center;
+	display:flex;
+	
+
+}
+.App{
+	width:35%;
+	height:1.73rem;
+	padding-top:0.23rem;
+}
+.foot .AppImg{
+	width:0.84rem;
+	height:0.86rem;
+	line-height: 0.86rem;
+	text-align: center;
+	font-size: 0.5rem;
+	border:1px solid gray;
+	border-radius:50%;
+	margin:0 auto ;
+
+}
+footer{
+	height:1.12rem;
+	width:100%;
+	display:flex;
+	line-height:1.12rem;
+}
+.marginright{
+	margin-left:0.64rem;
+}
+.footerTitle{
+	color:gray;
+}
+
