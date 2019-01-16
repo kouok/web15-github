@@ -1,0 +1,478 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	 <meta charset="utf-8"/>
+    <!--viewport一定要加 user-scalable 值可以是yes|no或1|0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0,maximum-scale=1.0, user-scalable=0" />
+    <!-- 禁止将数字转为号码 -->
+    <meta name="format-detection" content="telephone=no" />
+    <!-- 控制顶栏状态栏显示样式，可以为透明 -->
+    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+    <!-- 添加一个网站图标，这样当你将网站添加到桌面图标时，会显示出来 -->
+    <link rel="apple-touch-icon-precomposed" href="mobile_logo.png?v1" />
+    <title>衡阳一日游</title>
+    <link rel="stylesheet" href="css/reset.css"/> 
+    <link rel="stylesheet" href="css/details.css"/> 
+    <link rel="stylesheet" href="font/iconfont.css">
+    <link rel="stylesheet" href="font2/iconfont.css">
+    <script>
+		(function(){
+			var ohtml = document.getElementsByTagName('html')[0];
+			var w = ohtml.getBoundingClientRect().width;
+			ohtml.style.fontSize=w/3.75+'px';
+		})();
+	</script>
+</head>
+<body>
+	<header class="topSearch">
+		<span class="iconfont icon-jiantou s1 fl"></span>
+		<div class="fl searchBox">
+			<span class="iconfont icon-fangdajing s3"></span>
+			<input type="text" name="keyword" value="" placeholder="输入城市/景点/游玩主体">
+		</div>
+		<span class="s2">衡阳<i class="iconfont icon-jiantou1" style="vertical-align: -0.02rem"></i></span>
+	</header>
+	<section class="carouselBox" id="carouselBox">
+		<ul class="carousel" id="carousel">
+			<li><img src="img/daa880b254940402.jpg_750x200_b114308a.jpg" alt=""></li>
+			<li><img src="img/2a6b77b6ff72402.jpg_750x200_d4cec568.jpg" alt=""></li>
+			<li><img src="img/8e5c4ab8ee8b7402.jpg_750x200_dd7a38dd.jpg" alt=""></li>
+			<li><img src="img/cb43c4ac6c215d02.jpg_750x200_83dee994.jpg" alt=""></li>
+			<li><img src="img/da037478f37cf202.jpg_750x200_fe28d396.jpg" alt=""></li>
+			<li><img src="img/daa880b254940402.jpg_750x200_b114308a.jpg" alt=""></li>
+			<li><img src="img/2a6b77b6ff72402.jpg_750x200_d4cec568.jpg" alt=""></li>
+		</ul>
+		<ul class="sign" id="sign">
+			<li class="bgWhite"></li>
+			<li></li>
+			<li></li>
+			<li></li>
+			<li></li>
+		</ul>
+	</section>
+	<section class="topNav">
+		<a href="javascript:">
+			<img src="img/f3dd6c383aeb3b02.png" alt="">
+			<p>门票景点</p>
+		</a>
+		<a href="javascript:">
+			<img src="img/c70f1e85ae4a4f02.png" alt="">
+			<p>自然风光</p>
+		</a>
+		<a href="javascript:">
+			<img src="img/01d081dacb03cc02.png" alt="">
+			<p>赏秋色</p>
+		</a>
+		<a href="javascript:">
+			<img src="img/e54fad3ea337b02.gif" alt="">
+			<p>年终大促</p>
+		</a>
+		<a href="javascript:">
+			<img src="img/416c6ab3368d1f02.png" alt="">
+			<p>全部玩乐</p>
+		</a>
+	</section>
+	<section class="locationBox">
+		<div class="fl iconfont icon-location">定位失败</div>
+		<div class="fl iconfont icon-earth">必游榜单</div>
+	</section>
+	<section class="list">
+		<div class="title">
+			<img src="img/bfbb9874e8f11402.png" alt="">
+			<span>本周热门榜单</span>
+		</div>
+		<div class="imgBox">
+			<div class="div1">
+				<div>
+					<img src="img/650fc27b271e57e2b8ea952aa3e48eea.water.jpg_200x200_8449470b.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+					<img src="img/159673b63e6ca702.png" alt="" class="img2">
+				</div>
+				<div>
+					<img src="img/2b68dcfd565f253b14c178994cd8bc98.jpg_200x200_f6e10f80.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+					<img src="img/36d0c4adaebbbc02.png" alt="" class="img2">
+				</div>
+				<div>
+					<img src="img/288ab1c9dd9ca09f93835fbb.png_200x200_5784a05b.png" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+					<img src="img/edc47ffef9e96b02.png" alt="" class="img2">
+				</div>
+				<div>
+					<img src="img/fc7bf629024c669a3.img.jpg_200x200_0034c415.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+				</div>
+				<div>
+					<img src="img/45fcc7621a6beeaa14d93ddcf792ac92.water.jpg_200x200_5a6d7e64.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+				</div>
+				<div>
+					<img src="img/67d1e2c9722d7e5393835fbb.jpg_200x200_949bdb2b.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+				</div>
+				<div>
+					<img src="img/af08c9b492da44399a9419ec58b99bed.jpg_200x200_f5dba0fd.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+				</div>
+				<div>
+					<img src="img/ea833b2b0cdb3ce3a3.img.jpg_200x200_201b6a9b.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+				</div>
+				<div>
+					<img src="img/650fc27b271e57e2b8ea952aa3e48eea.water.jpg_200x200_8449470b.jpg" alt="" class="img1">
+					<p>衡山</p>
+					<p><span>¥40</span>起</p>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="hobby">
+		<div class="title">
+			<img src="img/ebc329f16c55bb02.png" alt=""><span>猜你喜欢</span>
+		</div>
+		<div class="hobbyList">
+			<div class="hobbyListLeft fl">
+				<img src="img/650fc27b271e57e2b8ea952aa3e48eea.water.jpg_250x250_ab0cfd7a.jpg" alt="">
+			</div>
+			<div class="hobbyListRight fr">
+				<div class="div1">衡山</div>
+				<div class="div2">
+					<div class="xx1">
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+					</div>
+					<div class="xx2">
+						<div>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						</div>
+					</div>
+					<span class="comment">4296条评论</span>
+				</div>	
+				<div class="div3">
+					<p class="fl"><span>¥40</span>起</p>
+					<span class="fr" style="margin-right: 0.1rem">南岳区</span>
+				</div>
+			</div>
+		</div>
+		<p>这里很火哦，好多人点评它呢</p>
+		<div class="hobbyList">
+			<div class="hobbyListLeft fl">
+				<img src="img/af08c9b492da44399a9419ec58b99bed.jpg_250x250_517b98f5.jpg" alt="">
+			</div>
+			<div class="hobbyListRight fr">
+				<div class="div1">祝融峰</div>
+				<div class="div2">
+					<div class="xx1">
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+					</div>
+					<div class="xx2" style="width: 0.9rem">
+						<div>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						</div>
+					</div>
+					<span class="comment">4296条评论</span>
+				</div>	
+				<div class="div3">
+					<p class="fl"><span>¥40</span>起</p>
+					<span class="fr" style="margin-right: 0.1rem">南岳区</span>
+				</div>
+			</div>
+		</div>
+		<div class="hobbyList">
+			<div class="hobbyListLeft fl">
+				<img src="img/fc7bf629024c669a3.img.jpg_250x250_3b9b8685.jpg" alt="">
+			</div>
+			<div class="hobbyListRight fr">
+				<div class="div1">花果山</div>
+				<div class="div2">
+					<div class="xx1">
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+					</div>
+					<div class="xx2" style="width: 1rem">
+						<div>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						</div>
+					</div>
+					<span class="comment">4296条评论</span>
+				</div>	
+				<div class="div3">
+					<p class="fl"><span>¥40</span>起</p>
+					<span class="fr" style="margin-right: 0.1rem">南岳区</span>
+				</div>
+			</div>
+		</div>
+		<p>好评如潮，小伙伴热推景点</p>
+		<div class="hobbyList">
+			<div class="hobbyListLeft fl">
+				<img src="img/67d1e2c9722d7e5393835fbb.jpg_250x250_db0e6794.jpg" alt="">
+			</div>
+			<div class="hobbyListRight fr">
+				<div class="div1">水帘洞</div>
+				<div class="div2">
+					<div class="xx1">
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+					</div>
+					<div class="xx2" style="width: 1rem">
+						<div>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						</div>
+					</div>
+					<span class="comment">4296条评论</span>
+				</div>	
+				<div class="div3">
+					<p class="fl"><span>¥40</span>起</p>
+					<span class="fr" style="margin-right: 0.1rem">南岳区</span>
+				</div>
+			</div>
+		</div>
+		<div class="hobbyList">
+			<div class="hobbyListLeft fl">
+				<img src="img/288ab1c9dd9ca09f93835fbb.png_250x250_d39f45bc.png" alt="">
+			</div>
+			<div class="hobbyListRight fr">
+				<div class="div1">石鼓书院</div>
+				<div class="div2">
+					<div class="xx1">
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+					</div>
+					<div class="xx2" style="width: 1rem">
+						<div>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						</div>
+					</div>
+					<span class="comment">4296条评论</span>
+				</div>	
+				<div class="div3">
+					<p class="fl"><span>¥40</span>起</p>
+					<span class="fr" style="margin-right: 0.1rem">南岳区</span>
+				</div>
+			</div>
+		</div>
+		<div class="hobbyList">
+			<div class="hobbyListLeft fl">
+				<img src="img/3b68bd1cfd468d2693835fbb.jpg_250x250_bb1ba436.jpg" alt="">
+			</div>
+			<div class="hobbyListRight fr">
+				<div class="div1">蔡伦竹海</div>
+				<div class="div2">
+					<div class="xx1">
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+					</div>
+					<div class="xx2" style="width: 1rem">
+						<div>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						</div>
+					</div>
+					<span class="comment">4296条评论</span>
+				</div>	
+				<div class="div3">
+					<p class="fl"><span>¥40</span>起</p>
+					<span class="fr" style="margin-right: 0.1rem">南岳区</span>
+				</div>
+			</div>
+		</div>
+		<div class="hobbyList">
+			<div class="hobbyListLeft fl">
+				<img src="img/45fcc7621a6beeaa14d93ddcf792ac92.water.jpg_250x250_8f7ce031.jpg" alt="">
+			</div>
+			<div class="hobbyListRight fr">
+				<div class="div1">衡阳南湖公园</div>
+				<div class="div2">
+					<div class="xx1">
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						<span class="iconfont icon-xingzhuang60kaobei2"></span>
+					</div>
+					<div class="xx2" style="width: 1rem">
+						<div>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+							<span class="iconfont icon-xingzhuang60kaobei2"></span>
+						</div>
+					</div>
+					<span class="comment">4296条评论</span>
+				</div>	
+				<div class="div3">
+					<p class="fl"><span>¥40</span>起</p>
+					<span class="fr" style="margin-right: 0.1rem">南岳区</span>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="tuijian">
+		<p class="color">周末去哪儿</p>
+		<div class="imgBox">
+			<img src="img/d4ebbd8337f1ac.jpg_r_640x214_2d4332c1.jpg" alt="">
+		</div>
+		<p>湖南泡汤圣地</p>
+		<p class="p1">山谷幽深，泉水潺潺，宜人的自然风光，宜人的田园,山谷幽深，泉水潺潺，宜人的自然风光</p>
+		<div class="imgBox">
+			<img src="img/8d3b492ebf0b16.jpg_r_640x214_7b3a281d.jpg" alt="">
+		</div>
+		<p>湖南泡汤圣地</p>
+		<p class="p1">山谷幽深，泉水潺潺，宜人的自然风光，宜人的田园,山谷幽深，泉水潺潺，宜人的自然风光</p>
+		<div class="imgBox">
+			<img src="img/71c01c98139cf.jpg_r_640x214_30bac495.jpg" alt="">
+		</div>
+		<p>湖南泡汤圣地</p>
+		<p class="p1">山谷幽深，泉水潺潺，宜人的自然风光，宜人的田园,山谷幽深，泉水潺潺，宜人的自然风光</p>
+	</section>
+	<div class="sell  iconfont icon-gantanhao overflow">
+		<a href="javascript:" style="font-size: 0.12rem">票面价是指通过景区指定窗口售卖的纸质门票上标注价格</a>
+	</div>
+	<script>
+	//轮播图div
+	var ocarouselBox = document.getElementById('carouselBox');
+	//轮播图ul
+	var ocarousel = document.getElementById('carousel');
+	//轮播图标志点
+	var osign = document.getElementById('sign').children;
+	var num = 1;
+	var timer;
+	var l = ocarousel.children[0].offsetWidth;
+	ocarousel.addEventListener('webkitTransitionEnd',function (){
+		if(num==6){
+			ocarousel.style.transition = '';
+			ocarousel.style.left=-1*l+'px';
+			num=1;
+		}
+		if(num==0){
+			ocarousel.style.transition = '';
+			ocarousel.style.left=-5*l+'px';
+			num=5;
+		}
+
+	});
+	//向左滑动函数
+	
+	function left(){
+		ocarousel.style.transition = 'left 0.6s';
+		num++;
+		ocarousel.style.left=-l*num+'px';
+		fun();
+
+	}
+	//向右滑动
+	function right(){
+		ocarousel.style.transition = 'left 0.6s';
+		num--;
+		ocarousel.style.left=-num*l+'px';
+		fun();
+	}
+	timer =  setInterval(left,3000);
+	var startX = 0;
+	var moveX = 0;
+	var distanceX = 0;
+	// 触摸开始
+	ocarousel.addEventListener('touchstart',function (event) {
+		clearInterval(timer);
+		ocarousel.style.transition = '';
+		startX = event.touches[0].clientX;
+
+	});
+	ocarousel.addEventListener('touchmove',function (event) {
+		moveX = event.touches[0].clientX - startX;
+		var left = num*l;
+		console.log(num);
+		ocarousel.style.left = -left+moveX+'px';
+	});
+	ocarousel.addEventListener('touchend',function (event) {
+		var maxDistance = l/3;
+		console.log(num);
+		if (Math.abs(moveX)>maxDistance) {
+			if (moveX>0) {
+				num--;
+			}else{
+				num++;
+			}
+			ocarousel.style.transition = 'left 0.6s';
+			// console.log(l);
+			ocarousel.style.left = -num*l+'px';
+			fun();
+
+		}else{
+			console.log(l);
+			ocarousel.style.transition = 'left 0.6s';
+			ocarousel.style.left= -num*l+'px';
+		}
+		timer =  setInterval(left,3000);
+	});
+	//绑定圆点
+	function fun(){
+		var index;
+		for(var i = 0;i<5;i++){
+			osign[i].className='';
+			console.log(osign[i].className);
+		}
+		if(num==0){
+			index=4;
+		}else if(num==6){
+			index=0;
+		}else{
+			index=num-1;
+		}
+		osign[index].className='bgWhite';
+	}
+	
+	</script>
+</body>
+</html>

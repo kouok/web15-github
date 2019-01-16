@@ -1,0 +1,280 @@
+body{
+	font-size: 0.14rem;
+	background-color: #F5F5F5;
+	color:#666;
+}
+a{
+	color: #666;
+}
+.topSearch{
+	height:0.45rem;
+	background: #00BCD4;
+	line-height: 0.45rem;
+}
+.topSearch>.s1{
+	color:white;
+	margin-left: 0.1rem;
+}
+.topSearch .searchBox{
+	margin-top: 0.07rem;
+	margin-left: 0.15rem;
+	padding-left:0.1rem;
+	border-radius: 0.05rem;
+	width:2.7rem;
+	height:0.3rem;
+	color: #ccc;
+	background: white;
+	line-height: 0.3rem;
+	
+}
+.topSearch .s3{
+	font-size: 0.14rem;
+	vertical-align: 0.02rem;
+}
+.searchBox input{
+	height:0.28rem;
+	vertical-align: 0.03rem;
+	font-size: 0.14rem;
+
+}
+input::-webkit-input-placeholder{
+	color:#ccc;
+}
+.topSearch>.s2{
+	margin-left: 0.1rem;
+	color: white;
+}
+.carouselBox{
+	position: relative;
+	height:1rem;
+	overflow: hidden;
+}
+.carousel{
+	position: absolute;
+	left: -3.75rem;
+	list-style: none;
+	width: 700%;
+	height:1rem;
+}
+.carousel>li{
+	float: left;
+	width: 3.75rem;
+	height: 1rem;
+}
+.carousel>li>img{
+	width:100%;
+	height:100%;
+}
+.sign{
+	
+	position: absolute;
+	bottom: 0.08rem;
+	left:50%;
+	margin-left: -0.3rem;
+	list-style: none;
+	
+}
+.sign>li{
+	float: left;
+	border-radius: 50%;
+	width: 0.06rem;
+	height:0.06rem;
+	background: #ccc;
+	margin-left: 0.06rem;
+
+}
+.sign>.bgWhite{ background: white }
+.topNav{
+	padding-top: 0.05rem;
+	border-bottom: 0.01rem solid #F0F0F0;
+	height:1.91rem;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background: white;
+}
+
+
+.topNav a{
+	display: block;
+	width: 0.93rem;
+	height: 0.81rem;
+	text-align: center;
+}
+.topNav img{
+	width: 0.55rem;
+}
+.topNav p{
+	color: #666;
+}
+.locationBox{
+	height:0.48rem;
+	background: white;
+}
+.locationBox>div{
+	width:50%;
+	height:100%;
+	text-align: center;
+	line-height: 0.48rem;
+}
+.list{
+	margin-top: 0.1rem;
+	height:2rem;
+	background: white;
+}
+.list>.title{
+	padding-left:0.1rem;
+	height:0.44rem;
+	line-height: 0.44rem;
+}
+.list>.title>img{
+	width: 0.15rem;
+}
+.list>.title>span{
+	font-size: 0.16rem;
+}
+.list .imgBox{
+	/*margin-top: 0.06rem;*/
+	padding-left: 0.06rem;
+	height:1.56rem;
+	overflow-x: scroll;
+}
+.list .imgBox>.div1{
+	padding-top: 0.06rem;
+	width: 9.7rem;
+	height:1.48rem;
+	overflow: visible;
+}
+.list .imgBox>.div1>div{
+	position: relative;
+	float: left;
+	margin-left: 0.06rem;
+	width: 1rem;
+	height: 1.42rem;
+	overflow: visible;
+}
+.list .imgBox .img1{
+	width: 100%;
+}
+.list .imgBox span{
+	color: #FF9500;
+}
+.list .imgBox p{
+	text-align: center;
+}
+.list .imgBox .img2{
+	position: absolute;
+	width: 0.42rem;
+	top:-0.04rem;
+	left: 0;
+	z-index: 500
+}
+.hobby{
+	margin-top: 0.1rem;
+	background: white;
+}
+.hobby>.title{
+	height: 0.46rem;
+	line-height: 0.46rem;
+	font-size: 0.16rem;
+}
+.hobby>.title>img{
+	margin-left: 0.1rem;
+	margin-right: 0.06rem;
+	width: 0.16rem;
+}
+.hobbyList{
+	position: relative;
+	padding:0.12rem 0 0 0.12rem;
+	height:1.3rem;
+}
+.hobbyListLeft{
+	width:1rem;
+	height:1.18rem;
+}
+.hobbyListLeft>img{
+	width: 100%;
+}
+.hobbyListRight{
+	padding-top: 0.15rem;
+	width:2.53rem;
+	height:1.18rem;
+}
+.hobbyListRight>.div1{
+	font-size: 0.16rem;
+}
+.hobbyListRight>.div2{
+	position: relative;
+	height:0.36rem;
+	/*line-height: 0.36rem;*/
+}
+.hobbyListRight>.div2 .xx1{
+	position: absolute;
+	left: 0;
+	top:0.1rem;
+	color: #ccc;
+	font-size: 0.12rem;
+}
+.hobbyListRight>.div2 .xx2{
+	position: absolute;
+	left: 0;
+	top:0.1rem;
+	width: 0.7rem;
+	color: #FFB436;
+	overflow:hidden;
+	font-size: 0.12rem;
+}
+.hobbyListRight .xx2 div{
+	width:1rem;
+}
+.hobbyListRight .comment{
+	display: inline-block;
+	margin-top:10px;
+	margin-left: 1.3rem;
+}
+.hobbyListRight>.div3{
+	height:0.28rem;
+	line-height: 0.28rem;
+}
+.hobbyListRight>.div3 span:nth-child(1){
+	color: #FF8333;
+}
+.hobby>p{
+	height:0.22rem;
+	line-height: 0.22rem;
+	text-align: center;
+	font-size: 0.12rem;
+	color: red;
+}
+.tuijian>p{
+	height:0.4rem;
+	padding-left:0.12rem;
+	line-height: 0.4rem;
+	background: #fff;
+	color: #000;
+}
+.tuijian .color{
+	background: #F5F5F5;
+}
+.tuijian>.imgBox{
+	width: 3.75rem;
+	height: 1.4rem;
+}
+.tuijian>.imgBox>img{
+	width: 100%;
+}
+.tuijian>.p1{
+	overflow: hidden;
+	margin-bottom: 0.15rem;
+	white-space: nowrap;
+    text-overflow: ellipsis;
+    background: #fff;
+}
+.sell{
+	  width:100%;
+	  height:0.4rem;
+	  text-align:center;
+	  line-height:0.4rem;
+	  font-size:0.12rem;
+	  color:gray;
+}
