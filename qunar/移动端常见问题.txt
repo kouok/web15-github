@@ -1,0 +1,85 @@
+本地开发的网页如何在手机上浏览
+    虽然谷歌、火狐等浏览器可以模拟真实的手机环境，但我们还需要在真机中测试，确保万无一失。
+
+    方法1：使用xampp搭建的服务器
+    1、使用xampp等搭建本地服务器环境，也就是我们的项目需要通过本地域名或本地IP来范围，比如我们在xampp下的htdocs新建了个project文件夹，里面就是我们的新项目根目录，那么对应的服务器访问方式的域名应该为：http://localhost/project/
+
+    2、打开cmd,输入ipconfig查看本机对应的局域网IP地址是多少，比如我的是 192.168.0.109，将localhost替换成该IP进行访问，看是否能够访问本地项目，如果能访问则成功则进来下一步
+
+    3、确保手机与电脑访问的是同一个WiFi网络（即同一个路由器），然后通过Firefox访问 http://192.168.0.109/project/  点击地址栏右侧的二维码
+
+    4、打开手机微信扫一扫，扫描火狐生成的二维码，然后在手机上观看本地项目，本地修改后手机端需要重新刷新才能看到效果
+
+    方法2：使用Hbuilder工具
+    1、使用Hbuilder工具导入本地项目后在浏览器中打开
+
+    2、打开cmd,输入ipconfig查看本机对应的局域网IP地址是多少，比如我的是 192.168.0.109，将127.0.0.1替换成该IP进行访问，看是否能够访问本地项目，如果能访问则成功则进来下一步
+
+    3、确保手机与电脑访问的是同一个WiFi网络（即同一个路由器），然后通过Firefox访问 http://192.168.0.109/project/  点击地址栏右侧的二维码或手机端直接输入IP项目地址访问
+
+    4、打开手机微信扫一扫，扫描火狐生成的二维码，然后在手机上观看本地项目，本地修改后手机端需要重新刷新才能看到效果
+
+移动端开发常见问题：
+
+    一)、默认样式
+
+    1、清除点击阴影  -webkit-tap-hightlight-color:transparent;
+
+    2、消除按钮圆角 -webkit-apprearance:none
+
+    3、选中文字设置 -webkit-user-select:none
+
+    4、禁止文字缩放 -webkit-text-size-adjust:none
+
+    5、默认字体设置  Helvetica
+
+    6、让字体更顺滑（无锯齿）-webkit-font-smoothing:antialiased
+
+    解决方法：使用移动端网站开发模板
+
+    二)、移动端事件
+
+        a、问：PC上的事件可以在手机端使用吗？
+            答：可以
+
+        b、可以使用jquery开发吗？
+            答：不建议使用jquery，可以使用jquery的替代版：zepto.js 
+
+            也可以使用原生JS开发。
+
+        c、但手机端有专门的事件：
+
+        1、touch事件
+            类似于鼠标移入，移动，移出事件
+            a、touchstart:手指触摸到屏幕会触发
+
+            b、touchmove:当手指在屏幕上移动时，会触发
+
+            c、touchend:当手指离开屏幕时，会触发
+
+        2、tap类事件
+
+            触碰事件，一般用于代替click事件，有tap longTap singleTap doubleTap四种之分，存在点透问题，即会冒泡
+
+            tap: 手指碰一下屏幕会触发
+
+            longTap: 手指长按屏幕会触发
+
+            singleTap: 手指碰一下屏幕会触发
+
+            doubleTap: 手指双击屏幕会触发
+
+        3、swipe内事件
+
+            滑动事件，有swipe swipeLeft swipeRight swipeUp swipeDown 五种之分
+
+            swipe：手指在屏幕上滑动时会触发
+
+            swipeLeft：手指在屏幕上向左滑动时会触发
+
+            swipeRight：手指在屏幕上向右滑动时会触发
+
+            swipeUp：手指在屏幕上向上滑动时会触发
+
+            swipeDown：手指在屏幕上向下滑动时会触发
+

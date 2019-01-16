@@ -1,0 +1,167 @@
+*{
+	margin:0;
+	padding:0;
+}
+.iconfont {
+  font-family:"iconfont" !important;
+  /*font-size:16px;*/
+  font-style:normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.head{
+	width: 3.75rem;
+	height: 0.94rem;
+	background-image: url(../img/主页/6e407f088bfb902.png);
+	background-size:3.75rem 0.94rem;
+	background-repeat: no-repeat; 
+}
+.stay,.traffic,.holiday,.other{
+	width: 3.66rem;
+	height: 0.96rem;
+	margin:0.09rem auto;
+	background-color:#ff5555;
+	display: flex;
+	color: white;	
+}
+.other{
+	height: 0.5rem; 
+	background-color:#fe9900;
+}
+.traffic{
+	background-color:#00a7f6;
+}
+.holiday{
+	background-color:#7cb832; 
+}
+.stay>div,.traffic>div,.holiday>div,.other>div{
+	width: 33.3%;
+	height: 0.96rem;
+	border-right: 0.01rem solid rgba(255,255,255,0.3);
+	text-align: center;
+	padding-top:0.10rem;
+	font-size: 0.19rem;
+}
+.stay>div:nth-child(3){
+	border-right: none;
+}
+.hotel,.plane,.vacation{
+	background-image: url(../img/主页/hotel.png);
+	background-size: 0.44rem 0.47rem;
+	background-repeat: no-repeat;
+	background-position: 0.41rem 0.48rem;
+}
+.plane{
+	background-image: url(../img/主页/flight.png);
+}
+.vacation{
+	background-image: url(../img/主页/holiday.png);
+}
+.discount>div:nth-child(2),.overseas>div:nth-child(2){
+	margin-top: 0.1rem; 
+}
+.other>div{
+	height: 0.52rem;
+}
+footer{
+	width:3.75rem;
+	background-color:#eeeeee;
+	padding-top:0.1rem;
+}
+nav{
+	width: 3.75rem;
+	height: 1.47rem;
+	background-color: white;
+	padding-top: 0.15rem;
+}
+.menu1{
+	width:3.09rem;
+	height: 0.53rem;
+	margin-left:0.33rem;
+	display: flex;
+	justify-content: space-between;
+}
+.menu2{
+	margin-top: 0.21rem;
+}
+.menu1>div{
+    width:0.6rem;
+    height: 0.53rem;
+}
+.wifi,.exit,.day,.food,.car,.boat,.bus,.idea{
+	width:0.29rem;
+	height: 0.26rem;
+	background-image: url(../img/主页/entrances.png);
+    background-size:3.75rem  1.37rem;
+    background-position:-0.44rem  -0.19rem;
+    margin-left: 0.19rem;
+}
+.exit{
+	background-position:-1.27rem  -0.19rem;
+}
+.day{
+	background-position:-2.16rem  -0.19rem;
+}
+.food{
+	background-position:-3.02rem  -0.19rem;
+}
+.car{
+	background-position: -0.43rem -0.92rem;
+}
+.boat{
+	background-position: -1.29rem -0.92rem;
+}
+.bus{
+	background-position: -2.15rem -0.92rem;
+}
+.idea{
+	background-position: -3.06rem -0.92rem;
+}
+.title{
+	font-size:0.13rem;
+	text-align: center;
+	margin-top: 0.09rem; 
+}
+.user{
+	width: 3.75rem;
+	height:0.82rem;
+	background-color: white;
+	margin-top:  0.1rem;
+	display: flex;
+	justify-content: space-between;
+}
+.user>div{
+	width: 33.3%;
+	height: 0.82rem;
+}
+.list{
+	width: 0.42rem;
+	height: 0.42rem;
+	border-radius: 50%;
+	border:0.01rem solid #F1F1F1;
+	margin-top: 0.11rem;
+	margin-left:0.39rem;
+	text-align: center;
+	font-size: 0.26rem;
+	line-height: 0.42rem;
+}
+.lister{
+	text-align:center;
+	font-size: 0.14rem;
+}
+.about{
+	width: 3.75rem;
+	height: 0.54rem;
+	font-size: 0.14rem;
+	line-height: 0.54rem;
+	/*background-color: #EEEEEE;*/
+}
+.about>span{
+	margin-left: 0.11rem;
+	margin-right: 0.34rem;
+	color: #A4A8AB;
+}
+.discount>div:nth-child(1),.overseas>div:nth-child(1){
+	border-bottom: 0.01rem solid rgba(255,255,255,0.3);
+	height: 0.4rem;
+}
