@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input type="button" value="按钮" id="btn" name="">
+    <script>
+        var btn=document.getElementById("btn");
+        btn.onclick=function(){
+            // ajax的工作原理很像我们打开一个网页：
+            // 打开浏览器
+            var reg=new XMLHttpRequest();
+            // 输入网址
+            // open("获取数据的方式","url数据的地址","是否是异步：默认是异步")
+            reg.open("GET","img.jpg",true);
+            //回车
+            reg.send();
+            //服务器工作取数据给你
+            reg.onreadystatechange=function(){
+                // 数据取成功的标志
+                if(reg.readyState==4){
+                //从服务器拿到的数据存储到了这个responseText上面
+                    console.log(reg.responseText);
+                }
+            };
+            
+        };
+    </script>
+</body>
+</html>
